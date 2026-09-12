@@ -10,7 +10,7 @@ date_start = st.sidebar.date_input("Start date")
 date_end = st.sidebar.date_input("End date")
 st.title(f"Stock Data of {name}")
 
-if name == 'SPY':
+if name == '':
     st.warning("Please enter a stock name in the sidebar.")
     st.stop()
 if name == 'SPY':
