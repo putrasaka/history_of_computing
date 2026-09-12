@@ -13,7 +13,7 @@ st.title(f"Stock Data of {name}")
 if name == '':
     st.warning("Please enter a stock name in the sidebar.")
     st.stop()
-if name == 'SPY':
+if name == '':
     name = '^GSPC'
 elif name == 'IHSG':
     name = '^JKSE'
